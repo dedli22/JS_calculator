@@ -1,0 +1,64 @@
+/* 
+    /// Home Work Info  ///
+    VUMC  2.  HomeWork
+    Author: Aigars Šteinbergs
+*/
+
+/* web page main core */
+
+body {
+    background: #FAFAFA;
+}
+
+/* Calculator main section */
+.calculator {
+    border: 4px solid rgba(39, 81, 196, 0.2);
+    margin: 5px auto;
+    margin-top: 10%;
+    max-width: 278px;
+    padding: 5px;
+}
+
+
+/* Calculator butonzzzzz */
+
+input[type=button] {
+    background-color: #6aa6ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 85px;
+}
+
+input[type=button-large] {
+    background-color: #6aa6ff;
+    border: none;
+    color: rgb(83, 2, 2);
+    padding: 16px 32px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 115px;
+}
+
+/* Callculator display */
+
+.display {
+    width: 100%;
+    background: rgb(41,41,56);
+    color: white;
+    border:none;
+    min-height: 80px;
+    text-align: right;
+    font-size: 20px;
+}

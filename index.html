@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="style/javascript.js"></script>
+    <title>My calculator</title>
+</head>
+
+<body>    
+
+    <section>
+        <form name="sintax" class="calculator"> 
+            <input type="text" name="display" id="" class="display">
+                <br><br>
+                <input type="button-large" value="C" onclick="sintax.display.value = '' " >
+                
+                <input type="button" value="+" onclick="sintax.display.value += '+'">
+                <input type="button" value="-" onclick="sintax.display.value += '-'">
+                <input type="button" value="*" onclick="sintax.display.value += '*'">
+                <input type="button" value="/" onclick="sintax.display.value += '/'">
+
+                <input type="button" value="1" onclick="sintax.display.value += '1'">
+                <input type="button" value="2" onclick="sintax.display.value += '2'">
+                <input type="button" value="3" onclick="sintax.display.value += '3'">
+                <input type="button" value="4" onclick="sintax.display.value += '4'">
+                <input type="button" value="5" onclick="sintax.display.value += '5'">
+                <input type="button" value="6" onclick="sintax.display.value += '6'">
+                <input type="button" value="7" onclick="sintax.display.value += '7'">
+                <input type="button" value="8" onclick="sintax.display.value += '8'">
+                <input type="button" value="9" onclick="sintax.display.value += '9'">
+                <input type="button" value="0" onclick="sintax.display.value += '0'">
+
+            <input type="button-large" value="=" onclick="sintax.display.value = eval(sintax.display.value)" >
+
+        </form>
+    </section>
+</body>
+</html>
